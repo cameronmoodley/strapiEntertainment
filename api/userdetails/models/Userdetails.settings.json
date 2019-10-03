@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "userdetails",
+  "info": {
+    "name": "userdetails",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "userName": {
+      "default": "",
+      "type": "string"
+    },
+    "userSurname": {
+      "default": "",
+      "type": "string"
+    },
+    "userEmail": {
+      "default": "",
+      "type": "email"
+    },
+    "userDescription": {
+      "default": "",
+      "type": "text"
+    }
+  }
+}
